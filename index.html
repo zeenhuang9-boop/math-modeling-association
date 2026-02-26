@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="武昌工学院数学建模协会成立于2007年，是学术性社团。培养科研人才，备战全国大学生数学建模竞赛、美国大学生数学建模竞赛等。">
+    <meta name="keywords" content="武昌工学院,数学建模,协会,大学生竞赛,国赛,美赛">
+    <meta name="author" content="武昌工学院数学建模协会">
+    <meta property="og:title" content="数学建模协会 - 武昌工学院">
+    <meta property="og:description" content="武昌工学院数学建模协会官方网站">
+    <meta property="og:type" content="website">
     <title>数学建模协会 - 武昌工学院</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
         }
         
         :root {
@@ -449,6 +461,12 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+        }
+        
+        .award-item img.loaded {
+            opacity: 1;
         }
         
         .events-section {
@@ -670,7 +688,7 @@
     <nav>
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="img/武昌工学院-数学建模协会-logo.jpg" alt="Logo">
+                <img loading="lazy" src="img/武昌工学院-数学建模协会-logo.jpg" alt="Logo">
                 <div class="nav-logo-text">数学<span>建模</span>协会</div>
             </div>
             <ul class="nav-links">
@@ -807,12 +825,12 @@
             <p>荣誉是对努力的最好见证</p>
         </div>
         <div class="awards-grid">
-            <div class="award-item fade-up"><img src="img/证书1.png" alt="证书1"></div>
-            <div class="award-item fade-up"><img src="img/证书2.png" alt="证书2"></div>
-            <div class="award-item fade-up"><img src="img/证书3.png" alt="证书3"></div>
-            <div class="award-item fade-up"><img src="img/证书4.png" alt="证书4"></div>
-            <div class="award-item fade-up"><img src="img/证书5.png" alt="证书5"></div>
-            <div class="award-item fade-up"><img src="img/证书6.png" alt="证书6"></div>
+            <div class="award-item fade-up"><img loading="lazy" src="img/证书1.png" alt="证书1"></div>
+            <div class="award-item fade-up"><img loading="lazy" src="img/证书2.png" alt="证书2"></div>
+            <div class="award-item fade-up"><img loading="lazy" src="img/证书3.png" alt="证书3"></div>
+            <div class="award-item fade-up"><img loading="lazy" src="img/证书4.png" alt="证书4"></div>
+            <div class="award-item fade-up"><img loading="lazy" src="img/证书5.png" alt="证书5"></div>
+            <div class="award-item fade-up"><img loading="lazy" src="img/证书6.png" alt="证书6"></div>
         </div>
     </section>
     
@@ -823,7 +841,7 @@
         </div>
         <div class="events-grid">
             <div class="event-card fade-up">
-                <img src="img/pagesPic/news/yingxin.png" alt="招新">
+                <img loading="lazy" src="img/pagesPic/news/yingxin.png" alt="招新">
                 <div class="event-content">
                     <h3>招新啦！</h3>
                     <p>天苍苍 野茫茫 数学建模协会是最强</p>
@@ -831,7 +849,7 @@
                 </div>
             </div>
             <div class="event-card fade-up">
-                <img src="img/pagesPic/news/conn.png" alt="联合宣传">
+                <img loading="lazy" src="img/pagesPic/news/conn.png" alt="联合宣传">
                 <div class="event-content">
                     <h3>联合宣传活动</h3>
                     <p>数学建模协会联合国际教育学院青年志愿者协会搞宣传啦</p>
@@ -839,7 +857,7 @@
                 </div>
             </div>
             <div class="event-card fade-up">
-                <img src="img/招新海报1.png" alt="更多活动">
+                <img loading="lazy" src="img/招新海报1.png" alt="更多活动">
                 <div class="event-content">
                     <h3>更多精彩活动</h3>
                     <p>期待与你相遇在数模大家庭</p>
@@ -891,7 +909,7 @@
             <div class="contact-card fade-up">
                 <div class="contact-icon">🌐</div>
                 <h4>网站</h4>
-                <p><a href="#">wuit.eu.org</a></p>
+                <p><a href="https://wuit.eu.org" target="_blank">wuit.eu.org</a></p>
             </div>
             <div class="contact-card fade-up">
                 <div class="contact-icon">📱</div>
@@ -913,9 +931,9 @@
     </section>
     
     <footer>
-        <img src="img/武昌工学院-数学建模协会-logo.jpg" alt="Logo">
+        <img loading="lazy" src="img/武昌工学院-数学建模协会-logo.jpg" alt="Logo">
         <p>Copyright © 数学建模协会. All rights reserved.</p>
-        <p>Designed By BESTZYK 张钰锟 2023.9 版权所有</p>
+        <p>Designed By BESTZYK 张钰锟 2026 版权所有</p>
         <p>武昌工学院第17届数学建模协会</p>
     </footer>
     
